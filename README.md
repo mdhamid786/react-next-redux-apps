@@ -1,57 +1,60 @@
-# ⚛️ ReactNext_Redux_Lab
+# ⚛️ React_Next_Redux_Master
 
-A comprehensive collection of **React.js**, **Next.js**, and **Redux Toolkit** projects, components, and best practices.  
-This repository showcases production-level implementations for dynamic UIs, API integrations, state management, and performance optimization.
+A comprehensive repository for **frontend development** with **React, Redux/RTK, and Next.js**.  
+Covers component design, state management, hooks, routing, SSR/SSG/CSR, performance optimization, testing, and deployment.
 
 ---
 
-## 🎯 Goal
-To build scalable and high-performing web applications using the modern React ecosystem — focusing on **state management**, **routing**, **SSR/SSG**, and **frontend architecture**.
+## 🎯 Goals
+- Master React fundamentals and advanced concepts  
+- Understand React hooks and lifecycle methods  
+- Learn Redux and Redux Toolkit for state management  
+- Build scalable applications with Next.js (SSR, SSG, ISR)  
+- Implement routing, API calls, and authentication  
+- Optimize frontend performance  
+- Apply testing and debugging best practices  
+- Follow modern frontend architecture and design patterns  
 
 ---
 
 ## 📚 Topics Covered
 
-### ⚛️ React Fundamentals
-- Functional Components & Hooks (useState, useEffect, useMemo, useRef)
-- Props, State, and Lifecycle Concepts
-- Component Reusability & Composition
-- Context API vs Redux
-- Forms, Validation, and Controlled Components
+### 🟢 React
+- Overview, popularity, key features, and SPA concept  
+- JSX, Virtual DOM, Components (functional vs class)  
+- Props, State, Lifecycle Methods  
+- Controlled vs uncontrolled components, key attributes  
+- React Fragments, Synthetic Events, Portals  
+- React Reconciliation, Higher-Order Components (HOCs), Render Props  
+- Context API & props drilling avoidance  
+- Hooks: useState, useEffect, useContext, useReducer, useMemo, useCallback, useRef, useImperativeHandle, useTransition, useDeferredValue, custom hooks  
+- Rules of Hooks, Side effects handling, Performance optimization  
+- Error Boundaries, Suspense, Lazy Loading, Code Splitting, Strict Mode  
+- Design patterns: Compound Components, ForwardRef, Memoization  
 
-### 🚀 Next.js Essentials
-- Pages and Routing (Static, Dynamic, Catch-all)
-- Data Fetching (getStaticProps, getServerSideProps)
-- API Routes & Middleware
-- Image Optimization & SEO Meta Tags
-- Deployment on Vercel / AWS
+### ⚙️ Redux & Redux Toolkit
+- Redux overview, core principles, and store  
+- Actions, Action Creators, Reducers, Data Flow, Dispatch, getState, Subscribe  
+- Middleware: Redux Thunk, Redux Saga  
+- Selectors, Memoization, Reselect library  
+- Time travel debugging, DevTools, Undo/Redo, Optimistic updates  
+- RTK: createSlice, createAsyncThunk, configureStore, Immer, extraReducers, builder callback pattern  
+- RTK Query, createEntityAdapter, Best Practices  
 
-### 🧠 Redux Toolkit
-- Store Configuration and Slices
-- createAsyncThunk for API calls
-- Handling global state & middleware
-- Integration with React components
-- Persisting state with `redux-persist`
-
-### 💡 Additional Concepts
-- Custom Hooks and HOCs
-- Error Boundaries
-- Lazy Loading & Code Splitting
-- Performance Optimization (memo, profiler)
-- Authentication Flow (JWT, Cookies, Context)
+### 🌐 Next.js
+- Next.js overview, benefits, and comparison with React  
+- SSR, SSG, CSR, ISR, Routing (Pages Router & App Router)  
+- File-based routing, Dynamic Routes, API Routes  
+- getStaticProps, getServerSideProps, getStaticPaths, getInitialProps (legacy)  
+- Middleware, Authentication, Image Optimization, next/head, SEO handling  
+- Environment variables, next.config.js, Deployment (Vercel)  
+- App Router (Next.js 13): app directory, Server Components, Client Components, Server Actions, page.js, layout.js, loading.js, error.js, not-found.js  
+- Nested layouts, Route groups, Parallel & Intercepting Routes  
+- Migration from Pages Router to App Router  
+- Performance & security best practices  
+- Component testing  
 
 ---
 
 ## 🧾 Folder Structure
 
-```bash
-ReactNext_Redux_Lab/
-│
-├── components/
-├── pages/
-├── redux/
-│   ├── slices/
-│   └── store.js
-├── hooks/
-├── utils/
-└── README.md
